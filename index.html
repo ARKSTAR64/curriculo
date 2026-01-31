@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo | Erik Melado Carvalho</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.10.1/html2pdf.bundle.min.js"></script>
+</head>
+<body>
+    <div class="no-print">
+        <button id="download-pdf"><i class="fas fa-file-pdf"></i> Baixar PDF</button>
+    </div>
+
+    <div class="container" id="cv-content">
+        <aside class="sidebar">
+            <div class="profile-container">
+                <img src="icon.png" alt="Foto de Erik Melado" id="profile-img">
+                <h1 id="name">Erik Melado Carvalho</h1>
+                <p class="tagline">Programador Python & GameDev</p>
+            </div>
+            
+            <section class="contact-info">
+                <h3>Contato</h3>
+                <p><i class="fas fa-envelope"></i> erikmelado@gmail.com</p>
+                <p><i class="fas fa-phone"></i> (81) 99909-2099</p>
+                <p><i class="fas fa-map-marker-alt"></i> Recife, PE</p>
+                <p><i class="fab fa-linkedin"></i> /in/erik-melado-ark/</p>
+                <p><i class="fab fa-github"></i> /ARKSTAR</p>
+                <p><i class="fab fa-instagram"></i> @arkstar64</p>
+            </section>
+
+            <section class="skills">
+                <h3>Skills</h3>
+                <ul id="skill-list">
+                    <li>Artes / Design <div class="bar"><div class="progress" style="width: 80%;"></div></div></li>
+                    <li>GML (GameMaker) <div class="bar"><div class="progress" style="width: 70%;"></div></div></li>
+                    <li>Python <div class="bar"><div class="progress" style="width: 65%;"></div></div></li>
+                    <li>HTML/CSS <div class="bar"><div class="progress" style="width: 50%;"></div></div></li>
+                    <li>JavaScript <div class="bar"><div class="progress" style="width: 50%;"></div></div></li>
+                </ul>
+            </section>
+
+            <section class="languages">
+                <h3>Idiomas</h3>
+                <p>Português - Nativo</p>
+                <p>Inglês - Intermediário</p>
+            </section>
+        </aside>
+
+        <main class="main-content">
+            <section class="about">
+                <h2><i class="fas fa-user"></i> Sobre Mim</h2>
+                <ul>
+                    <li>Programador Python</li>
+                    <li>Programador HTML, CSS e JS</li>
+                    <li>Gamedev Indie com GameMaker 2 (GML)</li>
+                    <li>Artista, desenhista e Character Designer</li>
+                </ul>
+            </section>
+
+            <section class="education">
+                <h2><i class="fas fa-graduation-cap"></i> Formação Acadêmica</h2>
+                <div class="edu-item">
+                    <h3>Senac - UNIDADE MEDIOTEC</h3>
+                    <p><strong>Ensino Médio Técnico</strong></p>
+                    <ul class="senac-list">
+                        <li><strong>1° ano:</strong> Certificação em montagem e manutenção (2023)</li>
+                        <li><strong>2° ano:</strong> Redes + Cisco Packet Tracer (2024)</li>
+                        <li><strong>3° ano:</strong> Certificação em programação (2025)</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="experience">
+                <h2><i class="fas fa-briefcase"></i> Experiências Profissionais</h2>
+                <div class="job">
+                    <p><em>Em busca do primeiro trabalho profissional.</em></p>
+                </div>
+            </section>
+        </main>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
